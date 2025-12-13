@@ -1,0 +1,11 @@
+device: 'cuda'
+criterion:
+  loss_beta: 4
+model:
+  average_top_k_layers: 10
+  embed_dim: 1536
+  num_classes: null
+  normalize_targets: false
+  ema_decay: 0.999
+  ema_end_decay: 0.9999
+  ema_anneal_end_step: 300000

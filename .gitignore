@@ -1,0 +1,64 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# Logs and experiment tracking
+*.log
+wandb/
+**/wandb/
+runs/
+**/tensorboard/
+
+# Outputs / checkpoints
+outputs/
+results/
+result*/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# Data / large artifacts (not shipped with the repo)
+data/
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local experiment folders (kept out of git for a clean repo)
+/finetune_*/
+/get_data2vec_embs_and_train*/
+/get_data2vec_embs_and_train_val_ind_test/
+/ind_test_*/
+/genome_similarity_split_train/
+
+# Pretraining local caches/outputs
+pretraining/data2vec/one_hots_*/
+pretraining/data2vec/test*/
+
+# Baseline helper scripts (local-only)
+CNN/ind_test.py
+CNN/finetune_set_test.py
+CNN/testing.py
+CNN/main_all.py

@@ -1,0 +1,12 @@
+numpy
+pandas
+omegaconf
+scikit-learn
+torch
+tensorboard
+wandb
+tqdm
+timm
+pillow
+nystrom-attention
+biopython

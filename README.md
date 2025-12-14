@@ -4,6 +4,9 @@ This repository contains the codes (pretraining, finetuning, inference utilities
   <img src="https://img.shields.io/badge/PDF-GenomeDrugFM_AMR-red?style=flat&logo=adobeacrobatreader" alt="PDF" />
 </a>.
 
+The implementation focuses on predicting AMR phenotypes across different bacterial strains on different drugs.
+
+
 ## Model Overview
 
 ![GenomeDrugFM-AMR architecture](assets/arch_genome_drug_FM.png)
